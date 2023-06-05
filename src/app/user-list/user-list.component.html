@@ -1,0 +1,55 @@
+<div class="row">
+  <div class="col-8">
+    <h3>Users</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Active</th>
+          <th>show</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <!--
+            FELADAT!
+            1. Hozz létre 5 darab td elemet.
+            2. Olvasd ki a user következő tulajdonságait,
+              és ezek jelenjenek meg a td-kben:
+              id, name, email, address, active
+           -->
+
+
+
+          <td>
+            <!--
+              FELADAT!
+              1. Készíts ide egy gombot btn és btn-info oszályokkal.
+              2. A gombban legyen az eye nevű Font Awesome-ikon.
+              3. Állítsd be a gombra event binding segítségével a click
+              eseményre az onSelectUser metódust és add át neki a user-t.
+            -->
+
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-4 pt-5">
+    <!--
+      FELADAT!
+      1. Szúrd be ide az app-user-detail komponenst.
+      2. Állítsd be property binding-gal a user változóját,
+        az értéke a currentUser legyen.
+      3. Állítsd be event binding-gal a delUser eseményét,
+        az értéke az onDeleteUser metódus legyen, és ennek a
+        metódusnak add át az $event paramétert.
+     -->
+
+
+  </div>
+</div>
